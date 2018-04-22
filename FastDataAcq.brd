@@ -5594,19 +5594,19 @@ aram name="rlMinMicroViaOuter" value="4mil"/>
 <attribute name="SUPPLIER" value="DIGIKEY" x="6.350003125" y="43.0784" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PARTNUMBER" value="445-9091-1-ND" x="6.350003125" y="43.0784" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C79" library="rcl" package="C0201" value="4.7nF" x="16.256" y="49.403">
-<attribute name="SUPPLIER" value="DIGIKEY" x="16.256" y="49.403" size="1.778" layer="27" display="off"/>
-<attribute name="PARTNUMBER" value="445-1795-1-ND" x="16.256" y="49.403" size="1.778" layer="27" display="off"/>
+<element name="C79" library="rcl" package="C0201" value="4.7nF" x="16.51" y="49.403">
+<attribute name="SUPPLIER" value="DIGIKEY" x="16.51" y="49.403" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="445-1795-1-ND" x="16.51" y="49.403" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C82" library="rcl" package="C0201" value="4.7nF" x="16.256" y="48.641">
-<attribute name="SUPPLIER" value="DIGIKEY" x="16.256" y="48.641" size="1.778" layer="27" display="off"/>
-<attribute name="PARTNUMBER" value="445-1795-1-ND" x="16.256" y="48.641" size="1.778" layer="27" display="off"/>
+<element name="C82" library="rcl" package="C0201" value="4.7nF" x="16.51" y="48.641">
+<attribute name="SUPPLIER" value="DIGIKEY" x="16.51" y="48.641" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="445-1795-1-ND" x="16.51" y="48.641" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$10" library="Schuyler" package="16WQFN" value="LMH6555" x="11.43" y="53.086" rot="R90">
-<attribute name="MANUFACTURER" value="Texas Instruments" x="11.43" y="53.086" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="DIGIKEY" x="11.43" y="53.086" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PARTNUMBER" value="LMH6555SQ/NOPBCT-ND" x="11.43" y="53.086" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANPARTNUMBER" value="LMH6555SQ/NOPB" x="11.43" y="53.086" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U$10" library="Schuyler" package="16WQFN" value="LMH6555" x="10.414" y="53.086" rot="R90">
+<attribute name="MANUFACTURER" value="Texas Instruments" x="10.414" y="53.086" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="10.414" y="53.086" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNUMBER" value="LMH6555SQ/NOPBCT-ND" x="10.414" y="53.086" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANPARTNUMBER" value="LMH6555SQ/NOPB" x="10.414" y="53.086" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$11" library="Schuyler" package="SC-70" value="LMV321SC-70" x="13.97" y="58.42" rot="MR0">
 <attribute name="MANUFACTURER" value="Texas Instruments" x="13.97" y="58.42" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -5614,21 +5614,23 @@ aram name="rlMinMicroViaOuter" value="4mil"/>
 <attribute name="PARTNUMBER" value="296-9568-1-ND" x="13.97" y="58.42" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANPARTNUMBER" value="LMV321IDCKR" x="13.97" y="58.42" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C90" library="Schuyler" package="0204REVERSE" value=".1uF" x="14.732" y="52.07" rot="R270">
-<attribute name="SUPPLIER" value="DIGIKEY" x="14.732" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PARTNUMBER" value="587-2152-1-ND" x="14.732" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C90" library="Schuyler" package="0204REVERSE" value=".1uF" x="13.716" y="51.943" rot="R90">
+<attribute name="SUPPLIER" value="DIGIKEY" x="13.716" y="51.943" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNUMBER" value="587-2152-1-ND" x="13.716" y="51.943" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C91" library="SparkFun-Passives" package="0805" value="33uF" x="14.097" y="51.562" rot="MR0">
-<attribute name="SUPPLIER" value="DIGIKEY" x="17.0434" y="54.8386" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PARTNUMBER" value="445-8238-1-ND" x="17.0434" y="54.8386" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="C91" library="SparkFun-Passives" package="0805" value="33uF" x="13.081" y="51.562" rot="MR0">
+<attribute name="SUPPLIER" value="DIGIKEY" x="16.0274" y="54.8386" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PARTNUMBER" value="445-8238-1-ND" x="16.0274" y="54.8386" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C89" library="Schuyler" package="0204REVERSE" value=".1uF" x="14.732" y="53.721" rot="R90">
-<attribute name="SUPPLIER" value="DIGIKEY" x="14.732" y="53.721" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PARTNUMBER" value="587-2152-1-ND" x="14.732" y="53.721" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C89" library="Schuyler" package="0204REVERSE" value=".1uF" x="13.716" y="53.721" rot="R270">
+<attribute name="SUPPLIER" value="DIGIKEY" x="13.716" y="53.721" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNUMBER" value="587-2152-1-ND" x="13.716" y="53.721" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C104" library="Schuyler" package="0204REVERSE" value=".1uF" x="14.478" y="60.706" rot="MR0">
+<element name="C104" library="Schuyler" package="0204REVERSE" value=".1uF" x="14.478" y="60.706" smashed="yes" rot="MR0">
 <attribute name="SUPPLIER" value="DIGIKEY" x="14.478" y="60.706" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PARTNUMBER" value="587-2152-1-ND" x="14.478" y="60.706" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="14.478" y="59.8932" size="0.3048" layer="26" font="vector" rot="MR0" align="center"/>
+<attribute name="VALUE" x="14.478" y="59.6392" size="0.3048" layer="28" font="vector" rot="MR0" align="center"/>
 </element>
 <element name="C38" library="Schuyler" package="0204REVERSE" value="0.47uF" x="39.374" y="20.042" rot="R90">
 <attribute name="SUPPLIER" value="DIGIKEY" x="39.374" y="20.042" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5781,9 +5783,9 @@ aram name="rlMinMicroViaOuter" value="4mil"/>
 <attribute name="PARTNUMBER" value="DAC101C081CIMK/NOPBCT-ND" x="12.192" y="30.226" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.192" y="30.226" size="1.27" layer="25" font="vector" rot="R90" align="center"/>
 </element>
-<element name="C94" library="Schuyler" package="0204REVERSE" value=".1uF" x="12.7" y="26.924">
-<attribute name="SUPPLIER" value="DIGIKEY" x="12.7" y="26.924" size="1.778" layer="27" display="off"/>
-<attribute name="PARTNUMBER" value="587-2152-1-ND" x="12.7" y="26.924" size="1.778" layer="27" display="off"/>
+<element name="C94" library="Schuyler" package="0204REVERSE" value=".1uF" x="12.7" y="26.67">
+<attribute name="SUPPLIER" value="DIGIKEY" x="12.7" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="587-2152-1-ND" x="12.7" y="26.67" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$4" library="Schuyler" package="38-QFN_(5X7)" value="LTC3374QFN" x="50.8" y="55.88">
 <attribute name="MANUFACTURER" value="Linear Technology" x="50.8" y="55.88" size="1.778" layer="27" display="off"/>
@@ -6325,11 +6327,11 @@ aram name="rlMinMicroViaOuter" value="4mil"/>
 <attribute name="PARTNUMBER" value="490-3995-1-ND" x="71.628" y="14.224" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANPARTNUMBER" value="BLM18SG260TN1D" x="71.628" y="14.224" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="L11" library="Schuyler" package="MURATA_BLM18" value="26" x="6.858" y="46.482" rot="R90">
-<attribute name="MANUFACTURER" value="Murata Electronics North America" x="6.858" y="46.482" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="DIGIKEY" x="6.858" y="46.482" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PARTNUMBER" value="490-3995-1-ND" x="6.858" y="46.482" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANPARTNUMBER" value="BLM18SG260TN1D" x="6.858" y="46.482" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="L11" library="Schuyler" package="MURATA_BLM18" value="26" x="7.112" y="39.624" rot="MR90">
+<attribute name="MANUFACTURER" value="Murata Electronics North America" x="7.112" y="39.624" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="7.112" y="39.624" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNUMBER" value="490-3995-1-ND" x="7.112" y="39.624" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANPARTNUMBER" value="BLM18SG260TN1D" x="7.112" y="39.624" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C103" library="rcl" package="C0201" value="10nF" x="15.494" y="35.433" rot="R90">
 <attribute name="SUPPLIER" value="DIGIKEY" x="15.494" y="35.433" size="1.778" layer="27" rot="R90" display="off"/>
@@ -6339,11 +6341,11 @@ aram name="rlMinMicroViaOuter" value="4mil"/>
 <attribute name="SUPPLIER" value="DIGIKEY" x="16.637" y="35.433" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNUMBER" value="445-9091-1-ND" x="16.637" y="35.433" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="L12" library="Schuyler" package="MURATA_BLM18" value="26" x="13.97" y="62.738" rot="R180">
-<attribute name="MANUFACTURER" value="Murata Electronics North America" x="13.97" y="62.738" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER" value="DIGIKEY" x="13.97" y="62.738" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PARTNUMBER" value="490-3995-1-ND" x="13.97" y="62.738" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANPARTNUMBER" value="BLM18SG260TN1D" x="13.97" y="62.738" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="L12" library="Schuyler" package="MURATA_BLM18" value="26" x="4.572" y="44.196" rot="MR90">
+<attribute name="MANUFACTURER" value="Murata Electronics North America" x="4.572" y="44.196" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="4.572" y="44.196" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNUMBER" value="490-3995-1-ND" x="4.572" y="44.196" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANPARTNUMBER" value="BLM18SG260TN1D" x="4.572" y="44.196" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C76" library="rcl" package="C0201" value="10nF" x="9.652" y="47.244">
 <attribute name="SUPPLIER" value="DIGIKEY" x="9.652" y="47.244" size="1.778" layer="27" display="off"/>
@@ -7361,7 +7363,6 @@ ontactref element="R5" pad="1"/>
 </signal>
 <signal name="1V9">
 <contactref element="IC1" pad="4"/>
-<contactref element="TP7" pad="TP"/>
 <contactref element="R22" pad="2"/>
 <contactref element="C57" pad="1"/>
 <contactref element="R25" pad="2"/>
@@ -7482,15 +7483,40 @@ ontactref element="Y1" pad="P$6"/>
 =====
 <c<contactref element="L11" pad="P$1"/>
 <contactref element="C76" pad="1"/>
-<wire x1="9.452" y1="48.26" x2="9.452" y2="48.26" width="0" layer="19" extent="1-16"/>
-<wire x1="9.402" y1="47.244" x2="9.452" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="9.652" y1="45.788" x2="9.402" y2="47.244" width="0" layer="19" extent="1-1"/>
-<wire x1="6.858" y1="47.157" x2="9.402" y2="47.244" width="0" layer="19" extent="1-1"/>
-<wire x1="12.192" y1="41.588" x2="9.652" y2="45.788" width="0" layer="19" extent="1-1"/>
+<polygon width="0.254" layer="3">
+<vertex x="6.35" y="39.878"/>
+<vertex x="6.35" y="48.768"/>
+<vertex x="15.24" y="48.768"/>
+<vertex x="15.24" y="39.878"/>
+</polygon>
+<via x="7.62" y="40.894" extent="1-16" drill="0.254"/>
+<via x="6.604" y="40.894" extent="1-16" drill="0.254"/>
+<wire x1="7.112" y1="40.386" x2="6.604" y2="40.894" width="0.254" layer="16"/>
+<wire x1="7.112" y1="40.299" x2="7.112" y2="40.386" width="0.254" layer="16"/>
+<wire x1="7.112" y1="40.386" x2="7.62" y2="40.894" width="0.254" layer="16"/>
+<polygon width="0.254" layer="16" thermals="no">
+<vertex x="6.35" y="40.005"/>
+<vertex x="6.35" y="41.148"/>
+<vertex x="7.874" y="41.148"/>
+<vertex x="7.874" y="40.005"/>
+</polygon>
+<via x="8.89" y="48.26" extent="1-16" drill="0.254"/>
+<wire x1="9.452" y1="48.26" x2="8.89" y2="48.26" width="0.2032" layer="16"/>
+<wire x1="9.402" y1="47.244" x2="9.402" y2="48.21" width="0.254" layer="1"/>
+<wire x1="9.402" y1="48.21" x2="9.452" y2="48.26" width="0.2032" layer="1"/>
+<wire x1="8.89" y1="48.26" x2="9.452" y2="48.26" width="0.2032" layer="1"/>
+<wire x1="9.402" y1="47.244" x2="9.402" y2="46.232" width="0.254" layer="1"/>
+<wire x1="9.402" y1="46.232" x2="9.398" y2="46.228" width="0.2032" layer="1"/>
+<wire x1="9.398" y1="46.228" x2="9.398" y2="46.042" width="0.2032" layer="1"/>
+<wire x1="9.398" y1="46.042" x2="9.652" y2="45.788" width="0.2032" layer="1"/>
+<wire x1="12.192" y1="41.588" x2="12.192" y2="42.926" width="0.2032" layer="1"/>
+<wire x1="12.192" y1="42.926" x2="11.43" y2="43.688" width="0.2032" layer="1"/>
+<wire x1="11.43" y1="43.688" x2="10.668" y2="43.688" width="0.2032" layer="1"/>
+<wire x1="10.668" y1="43.688" x2="9.652" y2="44.704" width="0.2032" layer="1"/>
+<wire x1="9.652" y1="44.704" x2="9.652" y2="45.788" width="0.2032" layer="1"/>
 </signal>
 <signal name="2V5">
 <contactref element="U$5" pad="3"/>
-<contactref element="TP9" pad="TP"/>
 <contactref element="C69" pad="1"/>
 <contactref element="L11" pad="P$2"/>
 <wire x1="76.52" y1="18.288" x2="76.4022" y2="21.6547" width="0" layer="19" extent="1-1"/>
@@ -8248,7 +8274,6 @@ signal>
 <signal name="FPGA_INITB">
 <contactref element="U$2" pad="P$39"/>
 <contactref element="U$7" pad="P$8"/>
-<contactref element="TP12" pad="TP"/>
 <contactref element="R37" pad="1"/>
 <wire x1="122.428" y1="71.502" x2="124.4986" y2="71.4718" width="0" layer="19" extent="1-1"/>
 <wire x1="110.268" y1="5.458" x2="122.428" y2="71.502" width="0" layer="19" extent="1-1"/>
@@ -9971,7 +9996,6 @@ signal>
 <contactref element="R10" pad="2"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C3" pad="1"/>
-<contactref element="TP1" pad="TP"/>
 <contactref element="R13" pad="1"/>
 <contactref element="U$2" pad="P$89"/>
 <contactref element="C35" pad="P$1"/>
@@ -10242,7 +10266,6 @@ signal>
 <contactref element="R19" pad="2"/>
 <contactref element="C33" pad="1"/>
 <contactref element="C34" pad="1"/>
-<contactref element="TP5" pad="TP"/>
 <contactref element="C47" pad="P$1"/>
 <contactref element="C49" pad="P$1"/>
 <contactref element="C48" pad="P$1"/>
@@ -11377,7 +11400,6 @@ ontactref element="C21" pad="1"/>
 <contactref element="R27" pad="2"/>
 <contactref element="C66" pad="1"/>
 <contactref element="C67" pad="1"/>
-<contactref element="TP8" pad="TP"/>
 <contactref element="U$5" pad="1"/>
 <contactref element="C68" pad="1"/>
 <contactref element="R30" pad="1"/>
@@ -11422,7 +11444,6 @@ ontactref element="C21" pad="1"/>
 <contactref element="R31" pad="2"/>
 <contactref element="C71" pad="1"/>
 <contactref element="C74" pad="1"/>
-<contactref element="TP11" pad="TP"/>
 <contactref element="U$6" pad="1"/>
 <contactref element="C72" pad="1"/>
 <wire x1="85.598" y1="26.758" x2="88.2132" y2="27.0141" width="0" layer="19" extent="1-1"/>
@@ -11490,7 +11511,6 @@ ontactref element="C21" pad="1"/>
 <contactref element="R21" pad="2"/>
 <contactref element="C54" pad="1"/>
 <contactref element="C55" pad="1"/>
-<contactref element="TP6" pad="TP"/>
 <contactref element="IC1" pad="2"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="C56" pad="1"/>
@@ -11580,7 +11600,6 @@ ontactref element="C21" pad="1"/>
 <signal name="PGOOD">
 <contactref element="U$4" pad="P$15"/>
 <contactref element="R12" pad="1"/>
-<contactref element="TP2" pad="TP"/>
 <contactref element="U$2" pad="P$35"/>
 <wire x1="107.818" y1="2.508" x2="138.2692" y2="53.7336" width="0" layer="19" extent="1-1"/>
 <wire x1="40.784" y1="3.0616" x2="107.818" y2="2.508" width="0" layer="19" extent="1-1"/>
@@ -11798,7 +11817,6 @@ signal>
 </signal>
 <signal name="3V3A">
 <contactref element="U$6" pad="3"/>
-<contactref element="TP10" pad="TP"/>
 <contactref element="C73" pad="1"/>
 <contactref element="L12" pad="P$2"/>
 <wire x1="88.204" y1="19.304" x2="88.2132" y2="22.4167" width="0" layer="19" extent="1-1"/>

@@ -2183,6 +2183,29 @@ http://datasheets.maximintegrated.com/en/ds/DS1088-DS1088L.pdf</description>
 <wire x1="-21.59" y1="7.62" x2="-21.59" y2="0" width="0.254" layer="94"/>
 <text x="-8.89" y="2.54" size="1.778" layer="94">GROUND PAD</text>
 </symbol>
+<symbol name="GND_PAD_16">
+<pin name="GND@0" x="-20.32" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@1" x="-17.78" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@2" x="-15.24" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@3" x="-12.7" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@4" x="-10.16" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@5" x="-7.62" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@6" x="-5.08" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@7" x="-2.54" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@8" x="0" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@9" x="2.54" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@10" x="5.08" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@11" x="7.62" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@12" x="10.16" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@13" x="12.7" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@14" x="15.24" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@15" x="17.78" y="-2.54" visible="off" length="short" direction="pwr" rot="R90"/>
+<wire x1="-21.59" y1="0" x2="19.05" y2="0" width="0.254" layer="94"/>
+<wire x1="19.05" y1="0" x2="19.05" y2="7.62" width="0.254" layer="94"/>
+<wire x1="19.05" y1="7.62" x2="-21.59" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-21.59" y1="7.62" x2="-21.59" y2="0" width="0.254" layer="94"/>
+<text x="-8.89" y="2.54" size="1.778" layer="94">GROUND PAD</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADC08D500" prefix="U">
