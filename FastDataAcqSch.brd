@@ -70,6 +70,7 @@
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="108" name="centerline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -2049,22 +2050,6 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </package>
 </packages>
 </library>
-<library name="dp_devices">
-<description>Dangerous Prototypes Standard PCB sizes
-http://dangerousprototypes.com</description>
-<packages>
-<package name="FB603">
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-2.2225" y="1.27" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-2.2225" y="-2.54" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="testpad">
 <description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
 Cream on SMD OFF.&lt;br&gt;
@@ -2781,6 +2766,122 @@ ttribute name="SUPPLIER" value="DIGIKEY" x="-93.7768" y="-157.7848" size="1.778"
 <attribute name="SUPPLIER" value="DIGIKEY" x="-103.251" y="-279.6794" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNUMBER" value="P330AGCT-ND" x="-103.251" y="-279.6794" size="1.778" layer="27" display="off"/>
 </element>
+<element name="L11" library="Schuyler" package="MURATA_BLM18" value="" x="-227.4062" y="-910.6408">
+<attribute name="MANUFACTURER" value="Murata Electronics North America" x="-227.4062" y="-910.6408" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-227.4062" y="-910.6408" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="490-3997-1-ND" x="-227.4062" y="-910.6408" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="BLM18SG331TN1D" x="-227.4062" y="-910.6408" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP10" library="testpad" package="P1-13" value="TPPAD1-13" x="-226.7204" y="-914.8826">
+<attribute name="TP_SIGNAL_NAME" value="" x="-226.7204" y="-914.8826" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R23" library="rcl" package="R0201" value="10k" x="-227.3554" y="-918.4132">
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc" x="-227.3554" y="-918.4132" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-227.3554" y="-918.4132" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="1276-3817-1-ND" x="-227.3554" y="-918.4132" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="RC0603J103CS" x="-227.3554" y="-918.4132" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP11" library="testpad" package="P1-13" value="TPPAD1-13" x="-226.7204" y="-923.798">
+<attribute name="TP_SIGNAL_NAME" value="" x="-226.7204" y="-923.798" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP12" library="testpad" package="P1-13" value="TPPAD1-13" x="-226.9744" y="-927.9636">
+<attribute name="TP_SIGNAL_NAME" value="" x="-226.7204" y="-927.9636" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP13" library="testpad" package="P1-13" value="TPPAD1-13" x="-226.7204" y="-932.1292">
+<attribute name="TP_SIGNAL_NAME" value="" x="-226.7204" y="-932.1292" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H1" library="holes" package="2,8" value="MOUNT-HOLE2.8" x="154.6098" y="95.3262" rot="MR0"/>
+<element name="H2" library="holes" package="2,8" value="MOUNT-HOLE2.8" x="-224.9424" y="-943.991"/>
+<element name="H3" library="holes" package="2,8" value="MOUNT-HOLE2.8" x="-224.9424" y="-951.103"/>
+<element name="H4" library="holes" package="2,8" value="MOUNT-HOLE2.8" x="-224.9424" y="-958.215"/>
+<element name="JP3" library="SparkFun-Passives" package="1X02" value="" x="-226.6442" y="-972.5152"/>
+<element name="D1" library="Schuyler" package="0603_LED" value="" x="-229.7684" y="-979.5764">
+<attribute name="MANUFACTURER" value="Lite-On Inc" x="-229.7684" y="-979.5764" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-229.7684" y="-979.5764" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="160-1830-1-ND" x="-229.7684" y="-979.5764" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="LTST-C193KRKT-5A" x="-229.7684" y="-979.5764" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R24" library="rcl" package="R0201" value="1k" x="-229.87" y="-983.4372">
+<attribute name="SUPPLIER" value="DIGIKEY" x="-229.87" y="-983.4372" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="1276-3797-1-ND" x="-229.87" y="-983.4372" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D2" library="Schuyler" package="0603_LED" value="" x="-232.283" y="-984.3262">
+<attribute name="MANUFACTURER" value="Lite-On Inc" x="-232.283" y="-984.3262" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-232.283" y="-984.3262" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="160-1828-1-ND" x="-232.283" y="-984.3262" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="LTST-C193KGKT-5A" x="-232.283" y="-984.3262" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D3" library="Schuyler" package="0603_LED" value="" x="-234.7976" y="-984.3262">
+<attribute name="MANUFACTURER" value="Lite-On Inc" x="-234.7976" y="-984.3262" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-234.7976" y="-984.3262" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="160-1827-1-ND" x="-234.7976" y="-984.3262" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="LTST-C193TBKT-5A" x="-234.7976" y="-984.3262" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R56" library="rcl" package="R0201" value="330" x="-234.8992" y="-988.187">
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc" x="-234.8992" y="-988.187" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-234.8992" y="-988.187" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="1276-3787-1-ND" x="-234.8992" y="-988.187" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="RC0603J331CS" x="-234.8992" y="-988.187" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R57" library="rcl" package="R0201" value="330" x="-234.8992" y="-992.9368">
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc" x="-234.8992" y="-992.9368" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-234.8992" y="-992.9368" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="1276-3787-1-ND" x="-234.8992" y="-992.9368" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="RC0603J331CS" x="-234.8992" y="-992.9368" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D4" library="Schuyler" package="0603_LED" value="" x="-237.3122" y="-993.8258">
+<attribute name="MANUFACTURER" value="Lite-On Inc" x="-237.3122" y="-993.8258" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-237.3122" y="-993.8258" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="160-1827-1-ND" x="-237.3122" y="-993.8258" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="LTST-C193TBKT-5A" x="-237.3122" y="-993.8258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D5" library="Schuyler" package="0603_LED" value="" x="-239.8268" y="-993.8258">
+<attribute name="MANUFACTURER" value="Lite-On Inc" x="-239.8268" y="-993.8258" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-239.8268" y="-993.8258" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="160-1828-1-ND" x="-239.8268" y="-993.8258" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="LTST-C193KGKT-5A" x="-239.8268" y="-993.8258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D6" library="Schuyler" package="0603_LED" value="" x="-242.3414" y="-993.8258">
+<attribute name="MANUFACTURER" value="Lite-On Inc" x="-242.3414" y="-993.8258" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-242.3414" y="-993.8258" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="160-1830-1-ND" x="-242.3414" y="-993.8258" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="LTST-C193KRKT-5A" x="-242.3414" y="-993.8258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="JP2" library="SparkFun-Connectors" package="1X10" value="M10&quot;" x="-241.7318" y="-998.8804"/>
+<element name="R58" library="rcl" package="R0201" value="330" x="-242.443" y="-1004.9002">
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc" x="-242.443" y="-1004.9002" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-242.443" y="-1004.9002" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="1276-3787-1-ND" x="-242.443" y="-1004.9002" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="RC0603J331CS" x="-242.443" y="-1004.9002" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R59" library="rcl" package="R0201" value="330" x="-242.443" y="-1009.65">
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc" x="-242.443" y="-1009.65" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-242.443" y="-1009.65" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="1276-3787-1-ND" x="-242.443" y="-1009.65" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="RC0603J331CS" x="-242.443" y="-1009.65" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R60" library="rcl" package="R0201" value="330" x="-242.443" y="-1014.3998">
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc" x="-242.443" y="-1014.3998" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-242.443" y="-1014.3998" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="1276-3787-1-ND" x="-242.443" y="-1014.3998" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="RC0603J331CS" x="-242.443" y="-1014.3998" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP14" library="testpad" package="P1-13" value="TPPAD1-13" x="-241.808" y="-1019.7846">
+<attribute name="TP_SIGNAL_NAME" value="" x="-241.808" y="-1019.7846" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP15" library="testpad" package="P1-13" value="TPPAD1-13" x="-241.808" y="-1023.9502">
+<attribute name="TP_SIGNAL_NAME" value="" x="-241.808" y="-1023.9502" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R61" library="rcl" package="R0201" value="50" x="-242.443" y="-1027.4808">
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc" x="-242.443" y="-1027.4808" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="DIGIKEY" x="-242.443" y="-1027.4808" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="1276-3590-1-ND" x="-242.443" y="-1027.4808" size="1.778" layer="27" display="off"/>
+<attribute name="MANPARTNUMBER" value="RC0603F49R9C" x="-242.443" y="-1027.4808" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R62" library="rcl" package="R0603" value="NA" x="-242.0874" y="-1032.2306">
+<attribute name="SUPPLIER" value="DIGIKEY" x="-242.0874" y="-1032.2306" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNUMBER" value="311-0.0GRCT-ND" x="-242.0874" y="-1032.2306" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2808,14 +2909,10 @@ signal>
 <signal name="VCCINT">
 <contactref element="U$2" pad="P$19"/>
 <contactref element="U$2" pad="P$28"/>
-<contactref element="U$2" pad="P$89"/>
-<wire x1="101.25" y1="39.3" x2="101.75" y2="60.7" width="0" layer="19" extent="1-1"/>
-<wire x1="105.75" y1="39.3" x2="101.25" y2="39.3" width="0" layer="19" extent="1-1"/>
+<wire x1="101.25" y1="39.3" x2="105.75" y2="39.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCCAUX">
 <contactref element="U$2" pad="P$20"/>
-<contactref element="U$2" pad="P$90"/>
-<wire x1="101.75" y1="39.3" x2="101.25" y2="60.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DI1-">
 <contactref element="U$1" pad="P$100"/>
@@ -5235,6 +5332,7 @@ signal>
 <contactref element="R2" pad="1"/>
 <wire x1="111.7" y1="58.25" x2="-90.5774" y2="-142.6972" width="0" layer="19" extent="1-1"/>
 <wire x1="144.0982" y1="57.0186" x2="111.7" y2="58.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-226.9744" y1="-927.9636" x2="-90.5774" y2="-142.6972" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FPGA_DIN">
 <contactref element="U$2" pad="P$65"/>
@@ -9381,7 +9479,9 @@ signal>
 <contactref element="C88" pad="1"/>
 <contactref element="C83" pad="1"/>
 <contactref element="TP4" pad="TP"/>
-<wire x1="103.9706" y1="61.9366" x2="108.25" y2="60.7" width="0" layer="19" extent="1-1"/>
+<contactref element="U$2" pad="P$77"/>
+<wire x1="107.75" y1="60.7" x2="108.25" y2="60.7" width="0" layer="19" extent="1-1"/>
+<wire x1="103.9706" y1="61.9366" x2="107.75" y2="60.7" width="0" layer="19" extent="1-1"/>
 <wire x1="95.4706" y1="61.9366" x2="103.25" y2="60.7" width="0" layer="19" extent="1-1"/>
 <wire x1="90.3" y1="52.25" x2="94.75" y2="60.7" width="0" layer="19" extent="1-1"/>
 <wire x1="90.3" y1="50.75" x2="89.284" y2="51.75" width="0" layer="19" extent="1-1"/>
@@ -9433,8 +9533,7 @@ signal>
 <contactref element="C57" pad="P$2"/>
 <contactref element="C56" pad="P$1"/>
 <wire x1="-101.527" y1="-257.7846" x2="-102.052" y2="-260.3754" width="0" layer="19" extent="1-1"/>
-<wire x1="-97.5478" y1="-256.3114" x2="-101.527" y2="-257.7846" width="0" layer="19" extent="1-1"/>
-<wire x1="-95.049" y1="-227.8328" x2="-97.5478" y2="-256.3114" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.049" y1="-227.8328" x2="-101.527" y2="-257.7846" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="IC1" pad="8"/>
