@@ -1222,9 +1222,10 @@ Distance</text>
 <wire x1="-3.6068" y1="-1.4986" x2="3.6068" y2="-1.4986" width="0.127" layer="21"/>
 <wire x1="3.6068" y1="-1.4986" x2="3.6068" y2="1.4986" width="0.127" layer="21"/>
 <wire x1="3.6068" y1="1.4986" x2="-3.6068" y2="1.4986" width="0.127" layer="21"/>
-<wire x1="-1.4986" y1="-1.4986" x2="-1.4986" y2="-2.4892" width="0.127" layer="21"/>
-<wire x1="-1.4986" y1="-2.4892" x2="0" y2="-2.4892" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.4892" x2="0" y2="-1.4986" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="-1.4986" x2="-1.4986" y2="-2.4892" width="0.127" layer="51"/>
+<wire x1="-1.4986" y1="-2.4892" x2="0" y2="-2.4892" width="0.127" layer="51"/>
+<wire x1="0" y1="-2.4892" x2="0" y2="-1.4986" width="0.127" layer="51"/>
+<text x="0" y="4.445" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
 </package>
 <package name="10-DFN">
 <description>10-DFN Exposed Pad package from LTC. http://cds.linear.com/docs/en/datasheet/2955f.pdf</description>
@@ -1314,11 +1315,11 @@ Distance</text>
 <rectangle x1="3.6068" y1="2.54" x2="4.0132" y2="3.4925" layer="51" rot="R180"/>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.2032" layer="21"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.2032" layer="21"/>
-<text x="5.715" y="0" size="0.635" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="0.635" layer="21" font="vector" rot="R270" align="center">1</text>
-<text x="3.81" y="-5.08" size="0.635" layer="21" font="vector" rot="R270" align="center">7</text>
-<text x="3.81" y="5.08" size="0.635" layer="21" font="vector" rot="R270" align="center">8</text>
-<text x="-3.81" y="5.08" size="0.635" layer="21" font="vector" rot="R270" align="center">2</text>
+<text x="5.842" y="0" size="1.016" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="-3.81" y="-4.445" size="0.635" layer="21" font="vector" rot="R270" align="center">1</text>
+<text x="3.81" y="-4.445" size="0.635" layer="21" font="vector" rot="R270" align="center">7</text>
+<text x="3.81" y="4.572" size="0.635" layer="21" font="vector" rot="R270" align="center">8</text>
+<text x="-3.81" y="4.572" size="0.635" layer="21" font="vector" rot="R270" align="center">2</text>
 </package>
 </packages>
 <symbols>
@@ -11053,15 +11054,13 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="-0.1" y1="-3.85" x2="-0.1" y2="3.85" width="0.2032" layer="51"/>
 <wire x1="-0.1" y1="3.85" x2="4.65" y2="3.85" width="0.2032" layer="51"/>
 <wire x1="4.65" y1="3.85" x2="4.65" y2="4.65" width="0.2032" layer="51"/>
-<wire x1="-1.55" y1="4.65" x2="-0.1" y2="4.65" width="0.2032" layer="21"/>
-<wire x1="-0.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="21"/>
 <smd name="1" x="2.6924" y="0" dx="4.826" dy="2.286" layer="1"/>
 <smd name="G@1" x="2.6924" y="4.4196" dx="4.826" dy="2.286" layer="1"/>
 <smd name="G@2" x="2.6924" y="-4.4196" dx="4.826" dy="2.286" layer="1"/>
 <smd name="G@4" x="2.6924" y="-4.4196" dx="4.826" dy="2.286" layer="16"/>
 <smd name="G@3" x="2.6924" y="4.4196" dx="4.826" dy="2.286" layer="16"/>
-<text x="0.635" y="6.35" size="1.778" layer="25">&gt;NAME</text>
-<text x="1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0.635" y="5.715" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="0.635" y="-6.985" size="1.016" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.025" y1="-0.5" x2="4.05" y2="0.5" layer="51"/>
 </package>
 <package name="J502-ND-142-0701-851/861">
