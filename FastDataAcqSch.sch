@@ -25347,7 +25347,6 @@ power and calibration process.</text>
 <instance part="1V6" gate="1" x="391.16" y="142.24" smashed="yes" rot="MR0"/>
 <instance part="R9" gate="G$1" x="78.74" y="238.76" rot="R90"/>
 <instance part="SUPPLY35" gate="1" x="78.74" y="246.38"/>
-<<<<<<<<instance part="R39" gate="G$1" x="408.94" y="109.22" rot="R90"/>
 <instance part="R51" gate="G$1" x="78.74" y="238.76" rot="R90"/>
 >>>>>>>+master
 
@@ -28238,6 +28237,7 @@ nt>
 <label x="353.06" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
+<<<<<<< master
 <pinref part="SUPPLY19" gate="1" pin="VCC"/>
 <wire x1="360.68" y1="93.98" x2="360.68" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C53" gate="G$1" pin="1"/>
@@ -28254,7 +28254,6 @@ nt>
 <net name="VIN" class="0">
 <segment>
 <pinref part="SUPPLY51" gate="1" pin="VCC"/>
-<<<<<<<<pinref part="C70" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="223.52" x2="116.84" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="VIN"/>
 <wire x1="132.08" y1="220.98" x2="121.92" y2="220.98" width="0.1524" layer="91"/>
@@ -28662,9 +28661,9 @@ nt>
 <wire x1="78.74" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
+<<<<<<< master
 <net name="S7SW" class="0">
 <segment>
-<<<<<<<<pinref part="L8" gate="G$1" pin="P$1"/>
 <pinref part="U$8" gate="G$7" pin="SW"/>
 <wire x1="160.02" y1="254" x2="157.48" y2="254" width="0.1524" layer="91"/>
 >>>>>>>+master
@@ -28970,6 +28969,7 @@ because feature not needed.</text>
 <text x="281.94" y="132.08" size="2.54" layer="97" font="vector">JTAG Connector</text>
 <text x="190.5" y="208.28" size="1.778" layer="97">NOTE: Include pull-up
 but DNP.</text>
+<<<<<<< master
 <<<<<<<<text x="195.58" y="86.36" size="1.778" layer="97">Note: Current limiting resistors
 may not be necessary.</text>
 >>>>>>>+master
@@ -29028,7 +29028,6 @@ cycle.</text>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="FRAME3" gate="G$2" x="325.12" y="0"/>
-<<<<<<<<instance part="Y1" gate="G$1" x="48.26" y="238.76"/>
 <instance part="SUPPLY6" gate="1" x="160.02" y="248.92"/>
 <instance part="AGND2" gate="VR1" x="30.48" y="213.36" smashed="yes">
 <attribute name="VALUE" x="33.528" y="211.582" size="1.778" layer="96" rot="R180"/>
@@ -29122,6 +29121,7 @@ nce>
 <attribute name="PARTNUMBER" x="274.32" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SUPPLIER" x="274.32" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<<<<<<< master
 <<<<<<<<instance part="R16" gate="G$1" x="312.42" y="73.66" rot="R90">
 <attribute name="PARTNUMBER" x="312.42" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SUPPLIER" x="312.42" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
@@ -29334,7 +29334,6 @@ nces>
 <segment>
 <pinref part="Y1" gate="G$1" pin="GND"/>
 <pinref part="AGND2" gate="VR1" pin="AGND"/>
-<<<<<<<<wire x1="33.02" y1="233.68" x2="30.48" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="233.68" x2="30.48" y2="220.98" width="0.1524" layer="91"/>
 <label x="37.592" y="233.172" size="1.778" layer="95" rot="R180"/>
 <pinref part="C22" gate="G$1" pin="2"/>
@@ -29881,6 +29880,7 @@ nt>
 <wire x1="299.72" y1="81.28" x2="299.72" y2="78.74" width="0.1524" layer="91"/>
 <junction x="299.72" y="81.28"/>
 <pinref part="SUPPLY36" gate="G$1" pin="DGND"/>
+<<<<<<< master
 <<<<<<<<wire x1="317.5" y1="60.96" x2="317.5" y2="63.5" width="0.1524" layer="91"/>
 <junction x="317.5" y="63.5"/>
 <pinref part="C61" gate="G$1" pin="2"/>
@@ -30035,7 +30035,6 @@ nt>
 </net>
 <net name="FPGA_INITB" class="0">
 <segment>
-<<<<<<<<pinref part="U$5" gate="G$1" pin="OE/!RST"/>
 <wire x1="284.48" y1="190.5" x2="248.92" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="190.5" x2="246.38" y2="190.5" width="0.1524" layer="91"/>
@@ -30194,6 +30193,7 @@ nt>
 <label x="218.44" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
+<<<<<<< master
 <net name="!TXLED" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="CBUS2"/>
